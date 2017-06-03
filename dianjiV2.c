@@ -1,4 +1,4 @@
-//ֱ�����PWM����ϵͳ���
+//直流电机PWM调速系统设计
 
 #include <reg52.h>
 
