@@ -30,26 +30,26 @@ void main()
 	TL0 = 0xd8;
 	EA = 1;		
 	ET0 = 1;	
-	TR0 =1 ;		
+	TR0 = 1 ;		
 		
 	while(1)
 	{
-		P0=table[m1];
+		P0 = table[m1];
 		P2_0 = 0;
 		for(j=0;j<20;j++);
 		P2_0 = 1;
 
-		P0=table[m2];
+		P0 = table[m2];
 		P2_1 = 0;
 		for(j=0;j<20;j++);
 		P2_1 = 1;
 
-		P0=table[m3];
+		P0 = table[m3];
 		P2_2 = 0;
 		for(j=0;j<20;j++);
 		P2_2 = 1;
 
-		P0=table[m4];
+		P0 = table[m4];
 		P2_3 = 0;
 		for(j=0;j<20;j++);
 		P2_3 = 1;
