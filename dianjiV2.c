@@ -69,7 +69,6 @@ void main()
 			m4 = v;
 		}
 
-
 		if(key4==0)
 		{
 			while(key4==0);
