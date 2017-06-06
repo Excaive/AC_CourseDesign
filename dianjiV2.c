@@ -30,7 +30,7 @@ void main()
 	TL0 = 0xd8;
 	EA = 1;		
 	ET0 = 1;	
-	TR0 = 1 ;		
+	TR0 = 1;		
 		
 	while(1)
 	{
@@ -95,7 +95,8 @@ void t0(void) interrupt 1
 			P1_1 = 0;	
 	}
 	else
-	{	P1_0 = 1;
+	{
+		P1_0 = 1;
 		P1_1 = 1;
 	}
 }
